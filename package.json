@@ -1,0 +1,28 @@
+{
+  "name": "plano-alimentar",
+  "version": "1.0.0",
+  "description": "O projeto se trata de um aplicativo de plano alimentar, onde o usuário poderá escolher entre diversas configurações, e o sistema, por meio do ChatGPT, criará um plano alimentar, no formato de um cronograma, podendo, no futuro, possuir, também, um mecanismo de recompensas.",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-styles": "^3.2.1",
+    "chalk": "^2.4.2",
+    "color-convert": "^1.9.3",
+    "color-name": "^1.1.3",
+    "commit-msg-linter": "^1.0.0",
+    "did-you-mean": "^0.0.1",
+    "escape-string-regexp": "^1.0.5",
+    "has-flag": "^3.0.0",
+    "levenshtein": "^1.0.5",
+    "supports-color": "^5.5.0",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ricardo_barros",
+  "license": "ISC"
+}
