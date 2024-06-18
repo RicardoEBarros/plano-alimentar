@@ -2,7 +2,7 @@
   "name": "plano-alimentar",
   "version": "1.0.0",
   "description": "O projeto se trata de um aplicativo de plano alimentar, onde o usuário poderá escolher entre diversas configurações, e o sistema, por meio do ChatGPT, criará um plano alimentar, no formato de um cronograma, podendo, no futuro, possuir, também, um mecanismo de recompensas.",
-  "main": "index.js",
+  "main": "index.ts",
   "dependencies": {
     "ansi-styles": "^3.2.1",
     "chalk": "^2.4.2",
@@ -17,11 +17,17 @@
     "underscore": "^1.13.6"
   },
   "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@stylistic/eslint-plugin-js": "^2.2.1",
     "@types/node": "^20.14.3",
+    "eslint": "^9.5.0",
     "git-commit-msg-linter": "^5.0.8",
-    "typescript": "^5.4.5"
+    "globals": "^15.6.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^8.0.0-alpha.10"
   },
   "scripts": {
+    "start": "npx eslint --fix ./src/**/*.ts & node --watch ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
